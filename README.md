@@ -79,11 +79,10 @@ while len(self.merges) < self.vocab_size - len(self.vocab):
 
 ```
 mini-bpe/
+|—— .gitignore
+|—— LICENSE
 ├── README.md           # This file
 ├── bpe.py              # Core BPE implementation
-├── train.py            # Training script
-├── encode.py           # Encoding/Decoding script
-├── example.txt         # Example corpus
 └── outputs/            # Training artifacts
     ├── vocab.json      # Vocabulary
     └── merges.txt      # Merge rules
